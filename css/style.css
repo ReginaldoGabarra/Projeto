@@ -1,0 +1,190 @@
+* {
+  
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+.titulo {
+  white-space: nowrap;
+  display: flex;
+  justify-content: flex-start;
+  color: #2C567A;
+  align-items: center;
+  font-size: 49px;
+  font-weight: bold;
+  position: relative;
+}
+
+.titulo::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  border-bottom: 5px solid #193b58;
+}
+
+
+.azul {
+  color: #2C567A;
+  font-size: 22px;
+ 
+  white-space: nowrap;
+  font-weight: bold;
+  margin-left: 50%;
+}
+
+.preto {
+  color: black;
+  font-size: 19px;
+  white-space: nowrap;
+}
+
+
+
+.titulo2{
+  font-size: 24px ;
+  color: #2C567A;
+  white-space: nowrap;
+  margin-left: 255px;
+ margin-top: -30px;
+
+}
+
+.texto{
+  font-size: 18px;
+  float: left;
+  white-space: nowrap;
+  margin-left: 280px;
+  margin-bottom: -10px;
+  position: relative;
+}
+
+.formacao{
+  margin-top: 110px;
+  font-size: 16px;
+  margin-left: 250px;
+  
+}
+
+
+.linha {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.linha::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%; /* Ajuste o valor do width conforme necessário */
+  border-bottom: 5px solid #193b58;
+  
+
+
+}
+
+.negrito{
+font-weight: bold;
+
+}
+
+.titulopequeno{
+  color: #004d91;font-size: 18px;font-weight: bold;
+}
+
+
+
+.corpo{
+width: 570px;
+word-wrap: break-word;
+}
+
+.caixa{
+  width: 17%;
+  margin-top: -40%;
+  margin-left: 20%;
+  }
+
+
+.falling-image {
+  position: relative;
+  animation: fall 1s forwards;
+}
+
+@keyframes fall {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fade-in-text {
+  opacity: 0;
+  animation: fadeIn 1.25s forwards;
+  animation-delay: 1.25s; /* Delay para iniciar após a animação da imagem */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+.fade-in-text2 {
+  opacity: 0;
+  animation: fadeIn 1.75s forwards;
+  animation-delay: 1.75s; /* Delay para iniciar após a animação da imagem */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.logo-img {
+  margin-top: -45px;
+width: 65%;
+height: auto;
+margin-left: 50px;
+}
+
+.fade-in-text3 {
+  opacity: 0;
+  animation: fadeIn 0.75s forwards;
+  animation-delay: 0.40s; /* Delay para iniciar após a animação da imagem */
+}
+
+
+.fade-in-text4{
+
+  opacity: 0;
+  animation: fadeIn 0.75s forwards;
+  animation-delay: 0.7s; /* Delay para iniciar após a animação da imagem */
+}
+
+.flex{
+position: absolute;
+top: 25%;
+left: 50%;
+transform: translate(-50%, -50%);
+height: 25%;
+width: 40%;
+}
